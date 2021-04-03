@@ -8,6 +8,11 @@ html {
     font-size: 62.5%;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header {
     width: 100%;
     height: 6rem;
@@ -17,4 +22,22 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 25rem;
+    height: auto;
+    display: flex;
+    list-style: none;
+    /* Lo que hace JUSTIFY-CONTENT es mover los elementos, 
+     ya sea a la izquierda, centro o derecha*/
+    justify-content: center;
+    /* Lo que hace ALIGN-ITEMNS es centrar los elementos
+    de forma horizontal */
+    align-items: center;
+}
+
+header nav .nav-right-section a {
+    margin-right: 1rem;
+    color: #000;
 }
