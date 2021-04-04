@@ -135,4 +135,5 @@ main .main-buttons button {
     border-radius: 0.5rem;
     padding: 0 1.5rem;
     margin-right: 1.5rem;
+    cursor: pointer;
 }
